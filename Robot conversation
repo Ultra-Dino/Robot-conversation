@@ -1,0 +1,15 @@
+name = input('What is your name?\n')
+print('Nice to meet you, %s' % name)
+print('My name is Robotrix.')
+homeland=input('Where are you from?\n')
+print('I am also from',homeland)
+fvg=input('what is your favorite game?\n')
+print('I don\'t like',fvg,'very much. But it is pretty good.')
+wires=input('I love to eat wires, do you?\n')
+if wires=='yes':
+  print('You are my best friend!')
+  nmt=input('Bye for now, but wait. When and where do you want to meet next time?\n')
+  if wires==wires:
+    print('Okay. Bye! See you!')
+else:
+  print('Too bad. Well, bye for now')  
